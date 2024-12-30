@@ -17,9 +17,7 @@ To check the git status
 git status
 '''
 
-
-
-
+To commit changes locally
 '''
 git commit -m "test-1"
 '''
@@ -30,4 +28,6 @@ git push origin main
 '''
 
 To check remote URLs
+'''
 git remote -v
+'''
