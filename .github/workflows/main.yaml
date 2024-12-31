@@ -8,7 +8,7 @@ on:
 
 # Define the steps to run.
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       # Checkout the code from the repository.
@@ -50,7 +50,7 @@ jobs:
         # By default, this argument is set to "web"
         # For more information look at https://devcenter.heroku.com/aarticles/process-model
         process_type: web
-        
+
 
         # (Optional, default: "")
         # Additional options for heroku container:push command.
