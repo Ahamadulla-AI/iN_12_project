@@ -11,9 +11,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Checkout the code from the repository.
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    # Checkout the code from the repository.
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
 ### Important Part ###
 
